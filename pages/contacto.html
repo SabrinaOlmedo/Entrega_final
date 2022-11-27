@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=main, initial-scale=1.0">
+    <meta name="description" content="Completa este formulario para poder contactarte con los administradores de la pagina">
+    <meta name="keywords" content="diseño de interiores, contacto, interior, casa, diseño, consulta, pregunta, duda">
+    <title>Unico Hogar | Contacto</title>
+    <link rel="shortcut icon" href="../assets/imagenes/Favicon/casa marron.jpg">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Courgette&family=Dancing+Script:wght@600;700&family=Oswald&display=swap"
+        rel="stylesheet">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--link css-->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header class="navbarContainer">
+        <nav class="navegador">
+            <a href="../index.html"><img id="avatar" src="../assets/imagenes/Favicon/casa marron.jpg"
+                    title="inicio"></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./tips.html">Tips</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Envianos tu consulta</h1>
+        <form class="fondo">
+            <fieldset>
+                <h3>Tus datos</h3>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" class="input" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input id="apellido" class="input" type="text" placeholder="Ingrese su apellido">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input id="email" class="input" type="email" name="" placeholder="Ingrese su E-mail">
+                </div>
+                <div>
+                    <label class="input" for="pais">Pais de origen</label>
+                    <select class="input" name="pais" id="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="chile">Chile</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="consulta">Escribinos tu consulta</label>
+                </div>
+                <div>
+                    <textarea class="input" name="" id="consulta" cols="30" rows="10"></textarea>
+                </div>
+
+                <input class="input boton" type="submit" value="Enviar consulta">
+                <input class="input boton" type="submit" value="Resetear">
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <a href="../pages/nosotros.html">Quieres saber sobre Unico Hogar?</a>
+        <a href="../pages/nosotros.html">Quieres saber más sobre Unico Hogar?</a>
+        <img src="../assets/imagenes/facebook.svg" alt="facebook">
+        <img src="../assets/imagenes/instagram.svg" alt="instagram">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
