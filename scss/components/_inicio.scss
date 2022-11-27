@@ -23,8 +23,15 @@ $font-family_5: Georgia, 'Times New Roman', Times, serif;
 	padding: 40px;
 	text-align: center;
 	font-family: $font-family_5;
+	font-size: 25px;
 	display: block;
 	color: map-get($paleta, letras);
+}
+
+@media screen and (max-width: 992px) {
+	.inicio {
+		font-size: 20px;
+	} 
 }
 
 @media screen and (max-width: 420px) {
@@ -33,4 +40,7 @@ $font-family_5: Georgia, 'Times New Roman', Times, serif;
 		justify-content: center;
 		text-align: center;
 	}
+	.inicio {
+		font-size: 15px;
+	} 
 }

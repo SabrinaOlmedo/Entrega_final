@@ -6,21 +6,17 @@ footer {
 	text-align: center;
 	position: relative;
 	display: flex;
-	flex-direction: row;
+	flex-direction:row;
 	width: 100%;
 	height: 10%;
 	gap: 7%;
-	padding: 10px;
-	a {
-		color: $color_1;
+	.linkfooter {
+		color: map-get($paleta, letra_navegador) ;
 		font-size: 20px;
 		font-family: $font-family_1;
-		padding-top: 10px;
+		padding: 20px;
 	}
-	img {
-		width: 40px;
-	}
-	&:hover {
+	& a:hover {
 		transform: scale(1.1);
 		transition: 3s;
 	}
